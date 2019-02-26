@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     YouTube Duration Titler
-// @description "A GreaseMonkey script to add video duration to YouTube titles"
+// @description A GreaseMonkey script to add video duration to YouTube titles
 // @include https://www.youtube.com/*
 // @version  0.1
 // @license GPL-3.0-or-later
