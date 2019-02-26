@@ -9,11 +9,11 @@
 // @include https://www.youtube.com/*
 // ==/UserScript==
 var timeout;
-function updateTitle(){	
+function updateTitle(){
   var duration = document.getElementsByClassName("ytp-time-duration")[0].textContent;
   var title = document.getElementsByClassName("ytp-title-link")[0].textContent;
   document.title = "[" + duration + "] " + title + " - YouTube";
-  timeout = setTimeout(updateTitle, 3000);
+  timeout = setTimeout(updateTitle, 5000);
 }
 
 updateTitle();
