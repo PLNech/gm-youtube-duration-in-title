@@ -1,13 +1,15 @@
 // ==UserScript==
 // @name     YouTube Duration Titler
-// @version  0.1
-// @license GPL-3.0-or-later; http://www.gnu.org/licenses/gpl-3.0.txt
 // @description "A GreaseMonkey script to add video duration to YouTube titles"
+// @include https://www.youtube.com/*
+// @version  0.1
+// @license GPL-3.0-or-later
 // @icon https://image.flaticon.com/icons/png/128/174/174883.png
 // @namespace plnech.fr
 // @noframes
 // @grant    none
-// @include https://www.youtube.com/*
+// @updateURL https://github.com/PLNech/gm-youtube-duration-in-title/raw/master/duration-adder.user.js
+//
 // ==/UserScript==
 var timeout;
 function updateTitle(){
