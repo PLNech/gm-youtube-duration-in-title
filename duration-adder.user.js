@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name     YouTube Duration + View Count + Date Titler
 // @description A GreaseMonkey script to add video duration, view count, and upload date to YouTube titles
-// @include https://www.youtube.com/*
+// @match https://www.youtube.com/watch*
+// @match https://youtu.be/*
 // @version  0.3
 // @license GPL-3.0-or-later
 // @icon https://image.flaticon.com/icons/png/128/174/174883.png
